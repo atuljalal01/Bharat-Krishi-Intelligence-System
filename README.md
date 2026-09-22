@@ -1,33 +1,45 @@
 # 🌾 Bharat Krishi Intelligence System (BKIS)
 
-### *An AI-Powered Smart Agriculture Decision Support System*
+## Project Overview
 
-> **Empowering Indian Agriculture with AI and Data-Driven Farming Solutions.**
+BKIS is an AI-powered agricultural intelligence platform that helps users make data-driven farming decisions through machine learning and deep learning.
 
-## 📖 Overview
+## 🔗 Links
 
-**Bharat Krishi Intelligence System (BKIS)** is an AI-powered agriculture system that helps farmers make smarter farming decisions. It combines Machine Learning, Computer Vision, IoT, and Cloud technologies to provide crop recommendations, disease detection, yield prediction, weather updates, fertilizer suggestions, and market insights—all in one intelligent system.
+* App: https://bharat-krishi-intelligence-system.streamlit.app/
 
-## ✨ Features
+## Features
 
-* 🌱 Crop Recommendation
-* 🍃 Disease Detection
-* 🌿 Fertilizer Recommendation
-* 📈 Yield Prediction
-* 🌦️ Weather Forecast
-* 💹 Market Price Prediction
-* 🤖 AI Chatbot
-* 🎙️ Voice Assistance
+- 🔬 Crop Disease Detection
+- 🌱 Crop Recommendation
+- 🧪 Fertilizer Recommendation
+- 🌾 Crop Yield Prediction
+- 💰 Mandi Price Prediction
 
-## 🛠️ Tech Stack
+## Technologies Used
 
-**Python • Scikit-learn • TensorFlow • OpenCV • FastAPI • React • SQL • AWS**
+- Python
+- Streamlit
+- TensorFlow
+- Scikit-learn
+- Pandas
+- NumPy
+- Joblib
+- Pillow
 
-## 🚀 Future Scope
+## Project Structure
 
-* 🛰️ Satellite Monitoring
-* 📡 IoT Integration
-* 🚁 Drone-Based Crop Analysis
-* 🌍 Precision Agriculture
+- `app/` – Streamlit application and prediction modules
+- `models/` – Trained ML/DL models and preprocessing artifacts
+- `datasets/` – Project datasets
+- `notebooks/` – Model development and analysis notebooks
+- `screenshots/` – Application screenshots
+- `test_images/` – Images used for testing
 
-*Building intelligent solutions for the future of Indian agriculture.* 🌾
+## Installation
+
+Create and activate a virtual environment:
+
+```powershell
+python -m venv .venv
+.venv\Scripts\Activate.ps1
